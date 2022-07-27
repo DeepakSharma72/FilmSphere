@@ -99,3 +99,9 @@
 .cut-button:hover{
     color: #3f48cc;
 }
+
+@media only screen and (max-width: 500px) {
+   .cut-button{
+    right: 10px;
+   }
+}
