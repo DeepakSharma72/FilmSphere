@@ -1,0 +1,85 @@
+:root {
+    --input-bar-width: 750px;
+    --logo-width: 200px;
+    --logo-heigth: 80px;
+    --header-heigt: 100px;
+}
+
+.header-container {
+    background-color: black;
+    height: var(--header-heigt);
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input {
+    width: var(--input-bar-width);
+    margin: 0 15px;
+    height: 40px;
+    font-size: larger;
+    outline: none;
+    box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.237);
+    font-weight: bolder;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 28px;
+    top: 8px;
+    z-index: 2;
+    transform: scale(1.3);
+}
+
+.logo-img {
+    height: var(--logo-heigth);
+    width: var(--logo-width);
+}
+
+@media only screen and (max-width: 1000px) {
+    :root {
+        --input-bar-width: 550px;
+        --logo-width: 170px;
+        --logo-heigth: 70px;
+        --header-heigt: 90px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    :root {
+        --input-bar-width: 350px;
+        --logo-width: 150px;
+        --logo-heigth: 60px;
+        --header-heigt: 80px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    :root {
+        --input-bar-width: 250px;
+        --logo-width: 120px;
+        --logo-heigth: 50px;
+        --header-heigt: 70px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    :root {
+        --input-bar-width: 250px;
+        --logo-width: 80px;
+        --logo-heigth: 40px;
+        --header-heigt: 60px;
+    }
+    .search-bar input {
+        margin: 0;
+        font-size: 15px;
+    }
+}

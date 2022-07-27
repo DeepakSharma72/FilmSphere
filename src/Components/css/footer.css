@@ -1,0 +1,24 @@
+.footer-container{
+    padding: 15px 0;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: wheat;
+}
+
+.footer-links>a{
+    text-decoration: none;
+    margin: 5px;
+}
+
+.link-icon{
+    transform: scale(1.7);
+    margin: 10px;
+    color: wheat;
+    margin-bottom: 0;
+}
