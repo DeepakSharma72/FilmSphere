@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FilmSphere/static/css/main.55041acb.css",
+    "main.css": "/FilmSphere/static/css/main.3c1b6c3e.css",
     "main.js": "/FilmSphere/static/js/main.9fc8fcc0.js",
     "static/media/netflix.png": "/FilmSphere/static/media/netflix.8b1008910dddf2b89b72.png",
     "static/media/notfound.png": "/FilmSphere/static/media/notfound.6c320682d133bce5fffa.png",
     "index.html": "/FilmSphere/index.html",
-    "main.55041acb.css.map": "/FilmSphere/static/css/main.55041acb.css.map",
+    "main.3c1b6c3e.css.map": "/FilmSphere/static/css/main.3c1b6c3e.css.map",
     "main.9fc8fcc0.js.map": "/FilmSphere/static/js/main.9fc8fcc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.55041acb.css",
+    "static/css/main.3c1b6c3e.css",
     "static/js/main.9fc8fcc0.js"
   ]
 }
